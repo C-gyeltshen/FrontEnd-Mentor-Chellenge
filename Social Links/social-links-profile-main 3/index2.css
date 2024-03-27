@@ -1,0 +1,120 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+.main{
+    background-color:hsl(0, 0%, 8%);
+    height: 100vh;
+    width: 100%;
+    
+
+}
+#innerDiv {
+    width: 30%;
+    height: 90vh;
+    background-color: hsl(0, 0%, 12%);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    top: 50%;
+    left: 50%;
+}
+
+h1{
+    color:hsl(0, 0%, 100%);
+    margin: 0px;text-align: center;
+}
+h2{
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    font-size: 14px;
+}
+p{
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 14px;
+}
+img {
+    border-radius: 50%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    color:hsl(0, 0%, 100%) ;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+#github {
+    width: 80%;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 4px;
+    height:8% ;
+    margin: auto;
+}
+#frontEnd {
+    width: 80%;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 4px;
+    height: 8%;
+    margin: auto;
+}
+#linked {
+    width: 80%;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 4px;
+    height: 8%;
+    margin: auto;
+}
+#github {
+    width: 80%;
+    background-color:hsl(0, 0%, 20%);
+    border-radius: 4px;
+    height: 8%;
+    margin: auto;
+}
+#twitter {
+    width: 80%;
+    background-color:hsl(0, 0%, 20%);
+    border-radius: 4px;
+    height: 8%;
+    margin: auto;
+}
+#insta {
+    width: 80%;
+    background-color:hsl(0, 0%, 20%);
+    border-radius: 4px;
+    height: 8%;
+    margin: auto;
+}
+
+#github:hover {
+    background-color: hsl(75, 94%, 57%); /* change to your desired color */
+    color: black; /* change to your desired color */
+  }
+
+#frontEnd:hover {
+    background-color: hsl(75, 94%, 57%); /* change to your desired color */
+    color: black; /* change to your desired color */
+}
+#linked:hover {
+    background-color: hsl(75, 94%, 57%); /* change to your desired color */
+    color: black; /* change to your desired color */
+  }
+  #twitter:hover {
+    background-color: hsl(75, 94%, 57%); /* change to your desired color */
+    color: black; /* change to your desired color */
+  }
+
+  #insta:hover {
+    background-color: hsl(75, 94%, 57%); /* change to your desired color */
+    color: black; /* change to your desired color */
+  }
+
+  #picture {
+    padding-top: 10%;
+  }
