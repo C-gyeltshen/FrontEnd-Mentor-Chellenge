@@ -1,0 +1,44 @@
+
+
+body {
+    background-image:    url(Calculater/wp10341647.jpg);
+}
+
+.calculater {
+    background-color:#2f3133;
+    width: 20%;
+    height: 40vh;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 100px auto auto auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+#one {
+    background-color:white;
+    border-radius: 10px;
+}
+#two {
+    background-color:white;
+    border-radius: 10px;
+}
+#div {
+    border-radius: 5px;
+}
+#add {
+    border-radius: 5px;
+}
+#mult {
+    border-radius: 5px;
+}
+#sub {
+    border-radius: 5px;
+}
+#ans{
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+   <div class="calculater">
+    <div id = "one">
+        <label for="fname">Value 1 :</label>
+        <input type="number" id="val1" name="fname">
+    </div>
+    <div id="two">
+        <label for="lname">Value 2 :</label>
+        <input type="number" id="val2" name="lname"><br><br>
+    </div>
+    <div>
+        <button type="button" id="add" >Add Value</button>
+    </div>
+    <div>
+        <button type="button" id="mult" >Multiply</button>
+    </div>
+    <div>
+        <button type="button" id="div" >Divide</button>
+    </div>
+    <div>
+        <button type="button" id="sub" >Subtract</button>
+    </div>
+    <div>
+        <label for="lname">Answer is :</label>
+        <input type="number" id="ans" name="lname">
+    </div>
+    
+
+</div>
+   <script>
+    const value1 = document.getElementById("val1");
+    const value2 = document.getElementById("val2");
+    const addition = document.getElementById("add");
+    const multiply = document.getElementById("mult");
+    const divide = document.getElementById("div");
+    const subtract = document.getElementById("sub");
+    const answer = document.getElementById("ans")
+
+    addition.addEventListener("click",function(e){
+
+        const num1 = parseInt(value1.value)
+        const num2 = parseInt(value2.value)
+        addition.style.backgroundColor = "#fe9a10";
+    
+        const sum = num1 + num2
+        answer.value = sum
+        console.log(sum)
+        event.preventDefault()
+    });
+
+    multiply.addEventListener("click",function(e){
+
+        const num11 = parseInt(value1.value)
+        const num22 = parseInt(value2.value)
+        multiply.style.backgroundColor = "#fe9a10";
+
+        const product = num11 * num22
+        console.log(product)
+        answer.value = product
+        event.preventDefault();
+    })
+
+    divide.addEventListener("click", function(e){
+
+         const num111 = parseInt(value1.value)
+         const num222 = parseInt(value2.value)
+         divide.style.backgroundColor = "#fe9a10";
+
+         const diff = num111 / num222
+         console.log(diff)
+         answer.value = diff
+         event.preventDefault();
+    })
+
+    subtract.addEventListener("click",function(e){
+
+        const num1111 = parseInt(value1.value)
+        const num2222 = parseInt(value2.value)
+        subtract.style.backgroundColor = "#fe9a10";
+
+        const subt = num1111 - num2222
+        console.log(subt)
+        answer.value = subt
+        event.preventDefault();
+
+        
+    })
+   </script>
+</body>
+</html>
